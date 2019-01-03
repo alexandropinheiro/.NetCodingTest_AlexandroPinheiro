@@ -1,0 +1,17 @@
+C:\Projetos\Icatu\Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Projetos\Icatu\Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Projetos\Icatu\Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Projetos\Icatu\Test\bin\Debug\netcoreapp2.1\Test.deps.json
+C:\Projetos\Icatu\Test\bin\Debug\netcoreapp2.1\Test.runtimeconfig.json
+C:\Projetos\Icatu\Test\bin\Debug\netcoreapp2.1\Test.runtimeconfig.dev.json
+C:\Projetos\Icatu\Test\bin\Debug\netcoreapp2.1\Test.dll
+C:\Projetos\Icatu\Test\bin\Debug\netcoreapp2.1\Test.pdb
+C:\Projetos\Icatu\Test\obj\Debug\netcoreapp2.1\Test.csprojAssemblyReference.cache
+C:\Projetos\Icatu\Test\obj\Debug\netcoreapp2.1\Test.csproj.CoreCompileInputs.cache
+C:\Projetos\Icatu\Test\obj\Debug\netcoreapp2.1\Test.AssemblyInfoInputs.cache
+C:\Projetos\Icatu\Test\obj\Debug\netcoreapp2.1\Test.AssemblyInfo.cs
+C:\Projetos\Icatu\Test\obj\Debug\netcoreapp2.1\Test.dll
+C:\Projetos\Icatu\Test\obj\Debug\netcoreapp2.1\Test.pdb
+C:\Projetos\Icatu\Test\bin\Debug\netcoreapp2.1\Microsoft.Data.Sqlite.dll
+C:\Projetos\Icatu\Test\bin\Debug\netcoreapp2.1\Microsoft.Data.Sqlite.xml
+C:\Projetos\Icatu\Test\obj\Debug\netcoreapp2.1\Test.csproj.CopyComplete

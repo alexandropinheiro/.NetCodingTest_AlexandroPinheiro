@@ -14,6 +14,8 @@ namespace Testes.Env
         {
             Server = new TestServer(
                 new WebHostBuilder()
+                    //.UseKestrel()
+                    //.UseEnvironment("Testing")
                     .UseContentRoot(Directory.GetCurrentDirectory())
                     .UseUrls("http://localhost:8285"));
 

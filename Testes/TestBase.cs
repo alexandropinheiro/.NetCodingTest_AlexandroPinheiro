@@ -1,10 +1,10 @@
 ﻿using Infra.Context;
 using Infra.Setup;
-using Testes.Setup;
+using Test.Setup;
 
-namespace Testes
+namespace Test
 {
-    public abstract class TesteBase
+    public abstract class TestBase
     {
         protected EmployeeContext Context;
         protected IDatabaseInitializer databaseInitializer;        
@@ -14,8 +14,7 @@ namespace Testes
             Context = TestDbContextBuilder.BuildDbContext();
             databaseInitializer = new DatabaseInitializer(Context);
             
-            databaseInitializer.ApplyMigrationsIfPossible();
-            //databaseInitializer.Seed();
+            databaseInitializer.ApplyDatabase();
         }
                 
         protected void TearDown()

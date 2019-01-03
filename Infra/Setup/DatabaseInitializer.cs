@@ -1,10 +1,4 @@
-﻿using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
-using Microsoft.Extensions.DependencyInjection;
-using Infra.Context;
-using Infra.Mapping;
+﻿using Infra.Context;
 
 namespace Infra.Setup
 {
@@ -17,33 +11,9 @@ namespace Infra.Setup
             _context = context;
         }
 
-        public virtual bool ApplyMigrationsIfPossible()
+        public virtual bool ApplyDatabase()
         {
-            var applied = _context.GetService<IHistoryRepository>()
-                .GetAppliedMigrations()
-                .Select(m => m.MigrationId);
-
-            var total = _context.GetService<IMigrationsAssembly>()
-                .Migrations
-                .Select(m => m.Key);
-
-            var allMigrationsApplied = !total.Except(applied).Any();
-
-            if (allMigrationsApplied) return false;
-            
-            if (!_context.Database.EnsureCreated())
-                _context.Database.Migrate();
-
-            return true;
+            return _context.Database.EnsureCreated();
         }
-
-        //public virtual void Seed()
-        //{
-        //    if (!_context.Valor.Any())
-        //    {                
-        //        _context.AddRange(ValorSeeder.RetornaListaValores());
-        //        _context.SaveChanges();
-        //    }
-        //}
     }
 }

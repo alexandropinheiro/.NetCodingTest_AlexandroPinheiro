@@ -2,7 +2,7 @@
 {
     public interface IDatabaseInitializer
     {
-        bool ApplyMigrationsIfPossible();
+        bool ApplyDatabase();
         //void Seed();
     }
 }
