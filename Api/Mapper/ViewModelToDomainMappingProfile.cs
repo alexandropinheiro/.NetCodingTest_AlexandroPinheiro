@@ -1,6 +1,6 @@
 ﻿using Api.ViewModels;
 using AutoMapper;
-using Dominio.Employees;
+using Domain.Employees;
 
 namespace Api.Mapper
 {

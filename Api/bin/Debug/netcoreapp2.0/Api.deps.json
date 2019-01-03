@@ -4736,20 +4736,20 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "Dominio/1.0.0": {
+      "Domain/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.2.0"
         },
         "runtime": {
-          "Dominio.dll": {}
+          "Domain.dll": {}
         },
         "compile": {
-          "Dominio.dll": {}
+          "Domain.dll": {}
         }
       },
       "Infra/1.0.0": {
         "dependencies": {
-          "Dominio": "1.0.0",
+          "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.2.0",
           "Microsoft.EntityFrameworkCore.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0",
@@ -4765,7 +4765,7 @@
       },
       "Ioc/1.0.0": {
         "dependencies": {
-          "Dominio": "1.0.0",
+          "Domain": "1.0.0",
           "Infra": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0"
         },
@@ -7121,7 +7121,7 @@
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
-    "Dominio/1.0.0": {
+    "Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

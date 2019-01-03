@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using Dominio;
-using Dominio.Employees;
 using Microsoft.AspNetCore.Mvc;
 using Api.ViewModels;
 using System;
 using System.Linq;
+using Domain.Employees;
+using Domain;
 
 namespace Api.Controllers
 {
