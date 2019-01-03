@@ -47,9 +47,7 @@ namespace Api
 
             app.UseMvc();
 
-            context.Database.EnsureCreated();
-
-            AutoMapperConfig.RegisterMapping();
+            AutoMapperConfig.RegisterMapping();            
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>

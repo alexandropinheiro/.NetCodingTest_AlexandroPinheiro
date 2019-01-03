@@ -1,4 +1,5 @@
 ﻿using Infra.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infra.Setup
 {
@@ -11,9 +12,9 @@ namespace Infra.Setup
             _context = context;
         }
 
-        public virtual bool ApplyDatabase()
+        public virtual void ApplyDatabase()
         {
-            return _context.Database.EnsureCreated();
+            if (_context.Database.EnsureCreated()) _context.Database.Migrate();
         }
     }
 }

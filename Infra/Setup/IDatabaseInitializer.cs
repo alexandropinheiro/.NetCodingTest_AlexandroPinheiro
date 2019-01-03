@@ -2,7 +2,7 @@
 {
     public interface IDatabaseInitializer
     {
-        bool ApplyDatabase();
+        void ApplyDatabase();
         //void Seed();
     }
 }
