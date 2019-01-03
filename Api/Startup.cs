@@ -33,7 +33,7 @@ namespace Api
                 c.SwaggerDoc("v1", new Info { Title = "Webapi", Version = "v1" });
             });
 
-            InjecaoDeDependencia.RegisterServices(services);
+            services.RegistrarDependenciasDoIoC();
         }
 
         public void Configure(IApplicationBuilder app,

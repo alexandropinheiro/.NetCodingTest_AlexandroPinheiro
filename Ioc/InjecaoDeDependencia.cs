@@ -1,19 +1,21 @@
-﻿using Domain.Employees;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Domain;
 using Infra;
 using Infra.Context;
-using Infra.Repository;
+using Ioc.Extensions;
 
 namespace Ioc
 {
-    public class InjecaoDeDependencia
-    {
-        public static void RegisterServices(IServiceCollection services)
-        {            
-            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddScoped<EmployeeContext>();
+    public static class InjecaoDeDependencia
+    {        
+        public static IServiceCollection RegistrarDependenciasDoIoC(this IServiceCollection service)
+        {
+            service.AddScoped<IUnitOfWork, UnitOfWork>();
+            service.AddScoped<EmployeeContext>();
+
+            service.InjetarClassesQueImplementam(typeof(IRepository));
+
+            return service;
         }
     }
 }
