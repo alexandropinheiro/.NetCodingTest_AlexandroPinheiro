@@ -1,0 +1,10 @@
+C:\Projetos\Icatu\Dominio\bin\Debug\netcoreapp2.0\Domain.deps.json
+C:\Projetos\Icatu\Dominio\bin\Debug\netcoreapp2.0\Domain.runtimeconfig.json
+C:\Projetos\Icatu\Dominio\bin\Debug\netcoreapp2.0\Domain.runtimeconfig.dev.json
+C:\Projetos\Icatu\Dominio\bin\Debug\netcoreapp2.0\Domain.dll
+C:\Projetos\Icatu\Dominio\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\Projetos\Icatu\Dominio\obj\Debug\netcoreapp2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Icatu\Dominio\obj\Debug\netcoreapp2.0\Domain.AssemblyInfoInputs.cache
+C:\Projetos\Icatu\Dominio\obj\Debug\netcoreapp2.0\Domain.AssemblyInfo.cs
+C:\Projetos\Icatu\Dominio\obj\Debug\netcoreapp2.0\Domain.dll
+C:\Projetos\Icatu\Dominio\obj\Debug\netcoreapp2.0\Domain.pdb
